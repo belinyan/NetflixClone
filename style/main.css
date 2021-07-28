@@ -22,7 +22,7 @@ header .container {
 
 header .logo {
     color: #e50914;
-    font-family: 'Arial Black', Times;
+    font-family: "Arial Black", times, serif;
     font-size: 55px;
     font-weight: bold;
     padding-left: 10px;
@@ -37,4 +37,54 @@ header nav a {
 
 header nav a:hover {
     color: white;
+}
+
+/*FILME PRINCIPAL*/
+
+.filme-principal{
+    height: 500px;
+    font-size: 16px;
+    margin-left: 5px;
+    
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url(/img/imagem2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+    font-size:40px;
+    margin-top: 12%;
+}
+
+.filme-principal .description{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: justify;
+}
+
+.filme-principal .botoes{
+    margin-left: 5px;
+}
+
+.botao{
+    margin-right: 10px;
+    padding: 20px 40px;
+    border: none;
+    color: white;
+    font-size:12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
 }
