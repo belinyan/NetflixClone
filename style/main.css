@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
     --vermelho: #e50914
 }
+@font-face{
+    font-family: 'Alycidon';
+    src: url('/Alycidon-Condensed.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 
 * {
     padding: 0;
@@ -18,12 +26,13 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
+    background-color: black;
 }
 
 header .logo {
     color: #e50914;
-    font-family: "Arial Black", times, serif;
-    font-size: 55px;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
     font-weight: bold;
     padding-left: 10px;
 
@@ -44,7 +53,7 @@ header nav a:hover {
 .filme-principal{
     height: 500px;
     font-size: 16px;
-    margin-left: 5px;
+    
     
     background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url(/img/imagem2.jpg);
     background-size: cover;
@@ -57,17 +66,20 @@ header nav a:hover {
 }
 
 .filme-principal .titulo{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 5px;
-    font-size:40px;
+    font-family: 'Alycidon';
+    color: rgba(122, 111, 111, 0.753);
+    margin-left: 8px;
+    font-size:80px;
     margin-top: 12%;
 }
 
 .filme-principal .description{
+    font-family:Verdana, Tahoma, sans-serif;
     margin-bottom: 40px;
     margin-top: 10px;
     margin-left: 8px;
     text-align: justify;
+    font-size: 16px;
 }
 
 .filme-principal .botoes{
