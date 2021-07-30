@@ -37,6 +37,13 @@ header .logo {
     padding-left: 10px;
 
 }
+header .search {
+    border: 1px solid;
+    width: 35%;
+    margin-left: 3px;
+
+
+}
 
 header nav a {
     text-decoration: none;
@@ -71,17 +78,50 @@ header nav a:hover {
     letter-spacing: 1px;
     word-spacing:12px;
     margin-left: 8px;
-    font-size:80px;
+    font-size:120px;
     margin-top: 12%;
+}
+.subtitle{
+    display: flex;
+}
+.season{
+    margin-left: 39%;
+    margin-right: 10px;
+    max-width:70px;
+    
+}
+.season-description{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hd{
+    background-color: rgb(119, 111, 111);
+    max-width: 24px;
+    
+}
+.hd-description{
+    margin-left: 1px;
+    font-family: monospace;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
 }
 
 .filme-principal .description{
-    font-family:Verdana, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 40px;
     margin-top: 10px;
     margin-left: 8px;
     text-align: justify;
-    font-size: 16px;
+    text-align-last: left;
+    font-size: 19px;
+    
+    
+}
+i{
+    margin-right: 8px;
 }
 
 .filme-principal .botoes{
@@ -103,9 +143,24 @@ header nav a:hover {
     background-color: white;
     color: black;
 }
+.why{
+    display: flex;  
+    flex-direction: justify;
+    
+    background-color: black;
+    
+}
+.why-description{
+    margin-left: 6px;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+}
 
 .film-box{
     display:block;
+    background-color:black;
     width: 100%;
     height: 100%;
 }

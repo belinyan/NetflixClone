@@ -17,6 +17,7 @@
         <div class="container">
             <h2 class="logo">Netflix</h2>
             <nav>
+                <input class="search" type="search" placeholder=Pesquise>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
@@ -29,21 +30,34 @@
         <div class= "filme-principal">
             <div class="container">
                 <h2 class="titulo">PEAKY BLINDERS</h2>
-                <P class="description"> 
-                   Os Peaky Blinders, a gangue na qual Thomas é líder, controlam a cidade de Birmingham. 
-                   <br>Mas, como as ambições de Shelby se estendem para além de Birmingham <br> ele planeja construir o império de negócios que criou e impedir qualquer um que atrapalhar.</P>
+                <div class="subtitle">
+                    <div class="season">
+                        <p class="season-description">5 seasons </p>
+                    </div>
+                    <div class="hd">
+                       <p class="hd-description">HD</p> 
+                    </div>
+                </div>
+                <P class="description">
+                    Os Peaky Blinders, a gangue na qual Thomas é líder, controlam a cidade de Birmingham. 
+                   <br>Mas, como as ambições de Shelby se estendem para além da cidade <br> ele planeja construir o império de negócios que criou e impedir qualquer um que atrapalhar.</P>
             </div>
             <div class="botoes">
                 <button role="button"class="botao">
+                    <i class="fas fa-play"></i>
                     ASSISTIR AGORA
                 </button>
                 <button role="button"class="botao">
+                    <i class="fas fa-info-circle"></i>
                     INFORMAÇÔES
                 </button>
             </div>
             
         </div>
     </main>
+    <div class="why">
+        <p class="why-description">Porque você assistiu a Peaky Blinders</p>
+    </div>
 
     <div class="carousel-films">
             <div class="owl-carousel owl-theme">
@@ -82,7 +96,7 @@
         
     </div>
 
-
+    <script src="https://kit.fontawesome.com/13c2401b1e.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script> 
     <script src="js/owl/setup.js"></script>
